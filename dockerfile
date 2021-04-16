@@ -1,4 +1,4 @@
-FROM pytorchlightning/pytorch_lightning:base-cuda-py3.7-torch1.4
+FROM python:3.7.10-alpine
 
 WORKDIR /
 
