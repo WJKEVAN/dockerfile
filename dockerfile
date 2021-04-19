@@ -2,6 +2,8 @@ FROM pytorch/pytorch:1.6.0-cuda10.1-cudnn7-runtime
 
 WORKDIR /
 
+apt-get update -y && apt-get install -y python-opencv
+
 COPY requirements.txt .
 
 RUN pip install -r requirements.txt
