@@ -1,11 +1,8 @@
 
 
-FROM python:3.7
+FROM pytorch/pytorch:1.2-cuda10.0-cudnn7-devel
 
-WORKDIR /
 
-RUN apt-get update -y && apt-get install -y python-opencv
 
-COPY requirements.txt .
 
-RUN pip install -r requirements.txt
+RUN pip install torchsummaryX
