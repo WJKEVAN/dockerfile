@@ -13,3 +13,5 @@ RUN pip install PyYAML==5.3.1
 RUN pip install scipy==1.5
 RUN pip install termcolor==1.1.0 
 RUN pip install yacs==0.1.8
+
+RUN pip install pytorch-lightning==1.3.3
