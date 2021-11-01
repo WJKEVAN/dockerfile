@@ -14,3 +14,15 @@ torchvision==0.9.1
 opencv-python==4.5.2.52
 scikit-learn==0.24.2
 pytorch-lightning==1.3.3
+
+scikit-image
+
+scikit-metrics
+
+numpy
+
+tqdm
+
+Pillow
+kornia
+itertools
