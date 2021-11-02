@@ -15,3 +15,15 @@ RUN pip install termcolor==1.1.0
 RUN pip install yacs==0.1.8
 
 RUN pip install pytorch-lightning==1.3.3
+
+
+RUN pip install scikit-image
+
+RUN pip install scikit-metrics
+
+RUN pip install numpy
+
+RUN pip install tqdm
+RUN pip install Pillow
+RUN pip install kornia
+RUN pip install itertools
