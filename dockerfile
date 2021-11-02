@@ -26,4 +26,4 @@ RUN pip install numpy
 RUN pip install tqdm
 RUN pip install Pillow
 RUN pip install kornia
-RUN pip install itertools
+RUN pip install more-itertools
