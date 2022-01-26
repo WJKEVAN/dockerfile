@@ -31,3 +31,7 @@ RUN pip install kornia==0.5.3
 RUN pip install more-itertools
 
 RUN pip install efficientnet-pytorch==0.6.3
+
+RUN apt apt update
+RUN apt --fix-broken install
+RUN apt install libgl1-mesa-glx
