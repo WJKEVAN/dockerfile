@@ -4,6 +4,8 @@ RUN apt update
 RUN apt --fix-broken install
 RUN apt install libgl1-mesa-glx   -y
 
+RUN apt install imgaug
+
 RUN pip install torchsummaryX
 
 
