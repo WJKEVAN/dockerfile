@@ -3,6 +3,7 @@ FROM pytorch/pytorch:1.8.1-cuda10.2-cudnn7-devel
 RUN apt update
 RUN apt --fix-broken install
 RUN apt install libgl1-mesa-glx
+y
 
 RUN pip install torchsummaryX
 
